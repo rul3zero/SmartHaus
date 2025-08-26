@@ -1,0 +1,111 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ===== SECURITY & SENSITIVE FILES =====
+# Firebase configuration files (CRITICAL - Contains API keys!)
+lib/firebase_options.dart
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+windows/runner/firebase_options.dart
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# API Keys and secrets
+secrets.dart
+api_keys.dart
+config/secrets.json
+
+# Local configuration
+android/local.properties
+ios/Flutter/flutter_export_environment.sh
+
+# ===== ADDITIONAL FLUTTER EXCLUSIONS =====
+# Generated files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+*.config.dart
+
+# Coverage
+coverage/
+lcov.info
+
+# Translation related files
+*.arb
+
+# Web
+web/firebase-config.js
+
+# Platform-specific excludes
+android/gradle.properties
+android/key.properties
+android/upload-keystore.jks
+android/app/release/
+ios/Podfile.lock
+ios/.symlinks/
+ios/Flutter/flutter_export_environment.sh
+macos/Podfile.lock
+linux/flutter/generated_*
+windows/flutter/generated_*
+
+# IDE
+.vscode/launch.json
+.vscode/settings.json
+
+# Logs
+logs/
+*.log
+flutter_*.log
+
+# Temporary files
+tmp/
+temp/
+.tmp
